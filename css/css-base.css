@@ -1,0 +1,562 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2015, 4:07:58 PM
+    Author     : Anup
+*/
+/* Table of content
+-----------------------------------------------
+1. Global
+2. Content
+3. Post styling
+4. Singe Post/Page Pagination
+5. Media
+6. Widgets
+7. Buttons
+8. Infinite Scroll
+8. Custom Styles
+9. Navigation
+10. Comments
+11. Attachment styling
+12. Footer
+13. Mobile Styling
+14. Social icons
+15. Call For Action
+*/
+
+/* =Global
+----------------------------------------------- */
+.container{
+
+}
+/* Alignment */
+/* Text meant only for screen readers */
+/* Clearing */
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+  content: '';
+  display: table;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  clear: both;
+}
+
+/* =Slider
+----------------------------------------------- */
+#uiu-banner-slider{
+    max-height: 395px;
+}
+/* =Content
+----------------------------------------------- */
+/* =Post styling
+----------------------------------------------- */
+hr.section-divider {
+  border-color: #E8E8E8;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* =Singe Post/Page Pagination
+----------------------------------------------- */
+/* =Asides
+----------------------------------------------- */
+/* =Media
+----------------------------------------------- */
+
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.wp-caption {
+  border: 1px solid #ccc;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+}
+.wp-caption-text {
+  text-align: center;
+}
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+.site-main .gallery {
+  margin-bottom: 1.5em;
+}
+.gallery-caption {
+}
+.site-main .gallery a img {
+  border: none;
+  height: auto;
+  max-width: 90%;
+}
+.site-main .gallery dd {
+  margin: 0;
+}
+.site-main .gallery-columns-4 .gallery-item {
+}
+.site-main .gallery-columns-4 .gallery-item img {
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/* =Widgets
+----------------------------------------------- */
+/* Make sure select elements fit in widgets */
+.widget select {
+  max-width: 100%;
+}
+
+/* Search widget */
+/* =Buttons
+----------------------------------------------- */
+/* =Infinite Scroll
+----------------------------------------------- */
+.hasScroll{
+    max-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+/* =Custom Styles
+----------------------------------------------- */
+/* =Header
+----------------------------------------------- */
+#muster-head,#top-menu-bar,#header,#parimary-navbar{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #E8E8E8;
+    min-height: 0px;
+}
+.navbar-brand{
+    height: auto;
+}
+/* =Navigation
+----------------------------------------------- */
+.top-menubar .nav > li{
+    display: inline-block;
+}
+/* =banner
+----------------------------------------------- */
+.front-page-slider{
+    min-height: 250px;
+}
+/* =main-content
+----------------------------------------------- */
+
+/* =main-content
+----------------------------------------------- */
+#main-content{
+    margin-top: 40px;
+    padding-bottom: 86px;
+    border-bottom: 5px solid #f68b1f;
+}
+#main-content .content{
+    min-height: 505px;
+    margin-bottom: 11px;
+}
+#main-content .content.events{
+    background: #cbcbcb;
+    padding: 5px 0px 14px 0px;
+}
+#main-content .content.events .event-title{
+    font-size: 20px;
+    text-decoration: none;
+    color: #242a31;
+    font-family:'Roboto Slab', serif;
+    border-bottom: 1px solid #242a31;
+    margin-left: 22px;
+}
+.events-list{
+    padding-left: 114px;
+    position: relative;
+    padding-top: 10px;
+    border-bottom: 2px solid #d8d8d8;
+}
+.events-list a{
+    text-decoration: none;
+}
+.events-list a:hover{
+    color: #fff;
+}
+.events-list-img{
+    position: absolute;
+    left: 22px;
+}
+.events-date{
+    color: #242a31;
+    font-size: 14px;
+    font-weight: 300;
+}
+.events-list-title{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.events-list-excerpt{
+    font-size: 14px;
+    font-weight: 300;
+    color: #2e363e;
+    line-height: 20px;
+}
+#main-content .content.events > div:hover{
+    background: #b0afaf;
+}
+#main-content .content.events > div:first-child{
+    margin-top: 20px!important;
+}
+#main-content .content.events > div:last-child{
+    border-bottom: none;
+}
+.content .content-title{
+    background: #f68b1f;
+    color: #fff;
+    padding: 6px 19px;
+    font-family:'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+
+}
+
+.content .content-title h3{
+    margin: 0px;
+    font-family: 'Roboto Slab', serif; 
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.content .notice{
+    background: #ececec;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    border-top:1px solid #e5e5e5; 
+    border-bottom:1px solid #e5e5e5;
+    color: #232323;
+    margin-bottom: 11px;
+    position: relative;
+}
+.content .notice .news-date{
+    color: #717070;
+}
+.content .notice .news-topic{
+    color: #232323;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.content .notice .news-topic:before{
+    content: "+";
+    color: #f68b1f;
+    left: 10px;
+    position: absolute;
+    font-weight: 700;
+
+}
+.content .apply-online{
+    background: #f68b1f;
+    padding-top: 34px;
+    text-align: center;
+    padding-bottom: 38px;
+
+    padding-left: 62px;
+
+}
+.content .apply-online > a:before{
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    content: "\f062";
+    font-family: FontAwesome;
+    font-weight: 300;
+    position: absolute;
+    left: -65px;
+    padding-top: 4px;
+    top: -6px;
+}
+.content .apply-online > a {
+    margin: 0px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    position: relative;
+}
+#main-content .more-links{
+    padding-top: 29px;
+    display: block;
+}
+#main-content .more-links a:before{
+    content: "+";
+    width: 16px;
+    background: #323232;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left: 15px;
+}
+#main-content .more-links a{
+    color: #2e363e;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 44px;
+}
+#main-content .first-row{
+    margin-bottom: 80px;
+}
+#main-content .middle-row{
+    padding-bottom: 59px;
+    border-bottom:1px solid #dcdedf;
+}
+#main-content .middle-row .middle-content-title > h3{
+    font-size: 20px;
+    color: #2e363e;
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+}
+#main-content .middle-row .middle-content-subtitle p{
+    margin: 21px 0px;
+    color: #232323;
+    font-size: 14px;
+    font-weight: 700;
+}
+#main-content .middle-row .excerpt p{
+    color: #232323;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: justify;
+}
+.text-widgets{
+    margin-top: 80px;
+    background: #ebebeb;
+}
+#departments-slider .owl-buttons{
+    display: none;
+}
+#departments-slider .owl-page.active span{
+    background: #2e363e;
+    opacity: 1;
+}
+#departments-slider .owl-page span{
+    background: #f68b1f;
+    opacity: 1;
+    height: 14px;
+    width: 14px;
+}
+#departments-slider .owl-pagination {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+#departments-slider .owl-controls{
+    margin-top: 0px;
+}
+.departments-slider{
+    padding: 13px 10px;
+    border-bottom: 2px solid #fbc996;
+    border-top: 2px solid #f68b1f;
+}
+.departments-slider-title{
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+.departments-slider-title > a{
+    color: #232323;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+.departments-slider .excerpt{
+    margin-right: 35px;
+}
+.departments-img-link{   
+    padding-top: 24px;
+}
+.dep-img{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+.ftiles-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    left: 0;
+    padding: 9px 10px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.last-row .text-widgets .sub-title{
+    margin: 25px 0px 33px 20px;    
+}
+.last-row .text-widgets .sub-title a{
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #6a6a6a;
+    text-decoration: none;
+    color: #232323;
+
+}
+.last-row .text-widgets .excerpt {
+    margin: 0px 26px 0px 20px; 
+    padding-bottom: 34px;
+}
+.last-row .text-widgets .excerpt p{
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight:300;
+    color: #232323;
+}
+/* =Attachment styling
+----------------------------------------------- */
+
+/* =footer-area
+----------------------------------------------- */
+#footer-area{
+    background: #2e363e;
+    padding-bottom: 5px;
+}
+.footer-text-widgets ul{
+    padding: 0px;
+}
+.footer-widget-area .widget-title {
+    font-size: 18px;
+    color: #e9e9e9;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif; 
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+.footer-widget-area address{
+    color: #8c8b8b;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-text-widgets .footer-widgets-links li a{
+    color: #8c8b8b;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-bottom: 1px solid #8c8b8b;
+}
+.footer-text-widgets ul > li{
+    list-style: none;
+}
+.footer-text-widgets .contact li{
+    margin-bottom: 15px;
+}
+.footer-text-widgets .contact li >a > i{
+    margin-right: 25px;
+    font-size: 20px;
+}
+.footer-text-widgets .contact li a{
+    color: #8c8b8b;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.social{
+    padding: 0px;
+    margin: 0px;
+}
+.social li{
+    list-style: none;
+    padding: 8px 0px;
+    background: #1d1d1d;
+    width: 36px;
+    margin: 0px 5px;
+    display: inline-block;
+    text-align: center;
+}
+.social li:first-child{
+    margin-left: 0px;
+}
+.social li a{
+    color: #8c8b8b;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+
+/* =Footer
+----------------------------------------------- */
+#footer{
+    background: #1b2025;
+    padding: 13px 0px;
+}
+.footer-logo{
+    opacity: .5;
+}
+#footer .copyright{
+    text-align: right;
+    margin-top: 33px;
+    font-size: 11px;
+    font-weight: 300;
+    color: #848484;
+}
+#footer .copyright .copyright-color{
+    color: #f29638;
+}
+
+/* =Mobile Styling
+----------------------------------------------- */
+
+/* =Social icons
+----------------------------------------------- */
+/* =Call For Action
+----------------------------------------------- */
